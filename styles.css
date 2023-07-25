@@ -20,7 +20,7 @@ form {
 }
 
 form:hover {
-    transform: scale(1.04);
+    transform: scale(1.01);
     width: 30rem;
     margin: 3rem auto;
     background: rgb(255, 255, 255);
