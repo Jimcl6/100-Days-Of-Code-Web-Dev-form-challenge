@@ -1,0 +1,117 @@
+body {
+    background-color: rgb(223, 253, 253);
+    font-family: 'Roboto', sans-serif;
+}
+
+header h1 {
+    text-align: center;
+}
+
+form {
+    width: 30rem;
+    margin: 3rem auto;
+    background: rgb(240, 251, 255);
+    padding: 1rem;
+    border-radius: 6px;
+    box-shadow: 1px 1px 8px rgb(124, 124, 124);
+}
+
+section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+input,
+textarea,
+select {
+    background-color: #fff;
+    width: 100%;
+    display: block;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    font: inherit;
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 4px;
+    padding: 0.25rem;
+    color: rgb(61, 58, 58);
+}
+
+
+input:focus,
+textarea:focus {
+    background-color: #e2a3ff90;
+    width: 100%;
+    display: block;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    font: inherit;
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 4px;
+    padding: 0.25rem;
+    color: rgb(61, 58, 58);
+}
+
+#response-section {
+    margin-bottom: 1rem;
+}
+
+
+.form-control-inline,
+#form-control-inline {
+    display: flex;
+}
+
+.form-control-inline input,
+#form-control-inline input {
+    width: auto;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#buttons-section {
+    display: flex;
+    justify-content: flex-end;
+}
+
+button {
+    margin: 0 0.2rem;
+    display: inline;
+    width: 7rem;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 6px;
+}
+
+#clear {
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid #9a9a9a;
+    padding: 0.5rem;
+    transition-duration: 200ms;
+}
+
+#clear:hover {
+    background-color: rgb(58, 0, 108);
+    border: 1px solid rgb(58, 0, 108);
+    padding: 0.5rem;
+    color: white;
+}
+
+#submit {
+    color: rgb(255, 255, 255);
+    background-color: rgb(58, 0, 108);
+    border: 1px solid #9a9a9a;
+    padding: 0.5rem;
+}
+
+#submit:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(89, 0, 166);
+    border: 1px solid #9a9a9a;
+    padding: 0.5rem;
+    transition-duration: 200ms;
+}
