@@ -15,19 +15,18 @@ form {
     background: rgb(255, 255, 255);
     padding: 1rem;
     border-radius: 6px;
-    transition-duration: 200ms;
-    /* box-shadow: 1px 1px 8px rgb(124, 124, 124); */
+    box-shadow: 1px 1px 8px rgb(124, 124, 124);
 }
 
-form:hover {
-    transform: scale(1.01);
+/* form:hover {
+    transform: scale(1.02);
     width: 30rem;
     margin: 3rem auto;
     background: rgb(255, 255, 255);
     padding: 1rem;
     border-radius: 6px;
     box-shadow: 1px 1px 8px rgb(124, 124, 124);
-}
+} */
 
 section ul {
     list-style: none;
